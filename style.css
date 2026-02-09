@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(120deg, #9bb8ff, #9be3e3);
+    background: linear-gradient(120deg, #627ec4, #90d3d3);
     padding: 30px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .card h2 {
-    color: #5a6ee6;
+    color: #485dd1;
     margin-bottom: 15px;
 }
 
@@ -78,12 +78,12 @@ textarea {
 .primary {
     width: 100%;
     margin-top: 15px;
-    background: linear-gradient(90deg, #6a6de8, #8b5adf);
+    background: linear-gradient(90deg, #6163e0, #513582);
     color: white;
 }
 
 .secondary {
-    background: linear-gradient(90deg, #6a6de8, #8b5adf);
+    background: linear-gradient(90deg, #5354b5, #493173);
     color: white;
     flex: 1;
 }
@@ -124,7 +124,7 @@ textarea {
 
 .tag {
     display: inline-block;
-    background: #6a6de8;
+    background: #585abd;
     color: white;
     padding: 3px 8px;
     border-radius: 12px;
@@ -141,7 +141,7 @@ textarea {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: #ff6b6b;
+    background: #d84f4f;
     border: none;
     color: white;
     border-radius: 50%;
