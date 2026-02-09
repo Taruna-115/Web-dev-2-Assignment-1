@@ -78,12 +78,12 @@ textarea {
 .primary {
     width: 100%;
     margin-top: 15px;
-    background: linear-gradient(90deg, #9564cd, #240855);
+    background: linear-gradient(90deg, #b5f3f3, #15285b);
     color: white;
 }
 
 .secondary {
-    background: linear-gradient(90deg, #9564cd, #240855);
+    background: linear-gradient(90deg, #b5f3f3, #15285b);
     color: white;
     flex: 1;
 }
