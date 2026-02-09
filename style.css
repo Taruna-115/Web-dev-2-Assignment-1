@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #9bb8ff, #9be3e3);
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card.large {
+    width: 520px;
+}
+
+.card h2 {
+    color: #5a6ee6;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary {
+    width: 100%;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #6a6de8, #8b5adf);
+    color: white;
+}
+
+.secondary {
+    background: linear-gradient(90deg, #6a6de8, #8b5adf);
+    color: white;
+    flex: 1;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.empty-text {
+    text-align: center;
+    color: #999;
+    margin-top: 60px;
+    font-size: 15px;
+}
