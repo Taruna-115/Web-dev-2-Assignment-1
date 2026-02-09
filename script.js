@@ -72,3 +72,18 @@ sampleBtn.addEventListener('click', () => {
     createEventCard("React Workshop", "2026-02-02", "Workshop", "Hands-on React session");
 });
 
+// ================== STYLE MANIPULATION ==================
+document.addEventListener('mouseover', (e) => {
+    if (e.target.classList.contains('event-card')) {
+        e.target.style.transform = "scale(1.02)";
+        e.target.style.transition = "0.3s";
+    }
+});
+
+document.addEventListener('mouseout', (e) => {
+    if (e.target.classList.contains('event-card')) {
+        e.target.style.transform = "scale(1)";
+    }
+});
+
+
