@@ -11,6 +11,7 @@ const sampleBtn = document.querySelectorAll('.secondary')[1];
 const eventsCard = document.querySelector('.card.large');
 const emptyText = document.querySelector('.empty-text');
 
+
 // ================== EVENT CREATION ==================
 addBtn.addEventListener('click', () => {
     const title = titleInput.value.trim();
@@ -31,6 +32,7 @@ addBtn.addEventListener('click', () => {
     descInput.value = "";
 });
 
+
 // ================== CREATE EVENT CARD ==================
 function createEventCard(title, date, category, desc) {
     emptyText.style.display = "none";
@@ -49,6 +51,7 @@ function createEventCard(title, date, category, desc) {
     eventsCard.appendChild(eventDiv);
 }
 
+
 // ================== EVENT DELEGATION ==================
 eventsCard.addEventListener('click', (e) => {
     if (e.target.classList.contains('delete-btn')) {
@@ -60,17 +63,20 @@ eventsCard.addEventListener('click', (e) => {
     }
 });
 
+
 // ================== CLEAR ALL EVENTS ==================
 clearBtn.addEventListener('click', () => {
     document.querySelectorAll('.event-card').forEach(card => card.remove());
     emptyText.style.display = "block";
 });
 
+
 // ================== SAMPLE EVENTS ==================
 sampleBtn.addEventListener('click', () => {
     createEventCard("Emifest", "2026-01-14", "Social", "College cultural fest");
     createEventCard("React Workshop", "2026-02-02", "Workshop", "Hands-on React session");
 });
+
 
 // ================== STYLE MANIPULATION ==================
 document.addEventListener('mouseover', (e) => {
