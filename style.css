@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(120deg, #627ec4, #90d3d3);
+    background: linear-gradient(120deg, #15285b, #b5f3f3);
     padding: 30px;
 }
 
@@ -30,7 +30,7 @@ body {
     border-radius: 12px;
     padding: 20px;
     width: 320px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(22, 0, 0, 0.34);
 }
 
 .card.large {
@@ -39,7 +39,7 @@ body {
 }
 
 .card h2 {
-    color: #485dd1;
+    color: #101a56;
     margin-bottom: 15px;
 }
 
@@ -78,18 +78,18 @@ textarea {
 .primary {
     width: 100%;
     margin-top: 15px;
-    background: linear-gradient(90deg, #6163e0, #513582);
+    background: linear-gradient(90deg, #9564cd, #240855);
     color: white;
 }
 
 .secondary {
-    background: linear-gradient(90deg, #5354b5, #493173);
+    background: linear-gradient(90deg, #9564cd, #240855);
     color: white;
     flex: 1;
 }
 
 .btn:hover {
-    opacity: 0.9;
+    transform: scale(1.03);
 }
 
 .btn-group {
@@ -114,7 +114,7 @@ textarea {
 }
 
 .event-card h3 {
-    color: #4b5bdc;
+    color: #1d2561;
 }
 
 .date {
@@ -124,7 +124,7 @@ textarea {
 
 .tag {
     display: inline-block;
-    background: #585abd;
+    background: #111235;
     color: white;
     padding: 3px 8px;
     border-radius: 12px;
@@ -141,7 +141,7 @@ textarea {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: #d84f4f;
+    background: #922727;
     border: none;
     color: white;
     border-radius: 50%;
