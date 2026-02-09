@@ -31,3 +31,32 @@ addBtn.addEventListener('click', () => {
     descInput.value = "";
 });
 
+// ================== CREATE EVENT CARD ==================
+function createEventCard(title, date, category, desc) {
+    emptyText.style.display = "none";
+
+    const eventDiv = document.createElement('div');
+    eventDiv.className = "event-card";
+
+    eventDiv.innerHTML = `
+        <h3>${title}</h3>
+        <p class="date">📅 ${date}</p>
+        <span class="tag">${category}</span>
+        <p class="desc">${desc || "No description"}</p>
+        <button class="delete-btn">✖</button>
+    `;
+
+    eventsCard.appendChild(eventDiv);
+}
+
+// ================== EVENT DELEGATION ==================
+eventsCard.addEventListener('click', (e) => {
+    if (e.target.classList.contains('delete-btn')) {
+        e.target.parentElement.remove();
+
+        if (document.querySelectorAll('.event-card').length === 0) {
+            emptyText.style.display = "block";
+        }
+    }
+});
+
