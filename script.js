@@ -66,3 +66,9 @@ clearBtn.addEventListener('click', () => {
     emptyText.style.display = "block";
 });
 
+// ================== SAMPLE EVENTS ==================
+sampleBtn.addEventListener('click', () => {
+    createEventCard("Emifest", "2026-01-14", "Social", "College cultural fest");
+    createEventCard("React Workshop", "2026-02-02", "Workshop", "Hands-on React session");
+});
+
