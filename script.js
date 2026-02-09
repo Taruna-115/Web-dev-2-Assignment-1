@@ -60,3 +60,9 @@ eventsCard.addEventListener('click', (e) => {
     }
 });
 
+// ================== CLEAR ALL EVENTS ==================
+clearBtn.addEventListener('click', () => {
+    document.querySelectorAll('.event-card').forEach(card => card.remove());
+    emptyText.style.display = "block";
+});
+
